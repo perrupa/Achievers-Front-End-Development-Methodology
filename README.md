@@ -6,7 +6,7 @@
 	- ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-	- ```<div class="user" data-user-pk="1" data-name="Aris"></div>```
+	- `<div class="user" data-user-pk="1" data-name="Aris"></div>`
 - Forms
 	- Use label fields to label each form field, the for attribute should associate itself with the input field
 - Tables are for tabular data, not forms/layout/etc...
@@ -17,8 +17,8 @@
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
 - No markup in CSS selectors. If you want to style something, give it a class. 
-		.user h3{} /* this is bad */
-		.user .userName {} /* this is better */
+`.user h3{} /* this is bad */`
+`.user .userName {} /* this is better */`
 - We should use a hybrid of BEM (Block-Element-Modifier) and OOCSS (Object Oriented CSS) principles
 	- A page consists of multiple logically distinct "Blocks"
 	- A block consists of other blocks and elements
