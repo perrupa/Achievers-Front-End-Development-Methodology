@@ -33,7 +33,6 @@
 - use floats and position relative/absolute very judiciously and only where necesary
 	- Doing this will minimize the amount of IE specific code we need
 
-	
 ##PHP
 - Keep your PHP short and free of complex logic
 - Break pages up into sub-views and code blocks.
