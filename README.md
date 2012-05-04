@@ -23,8 +23,8 @@
 	- A block is the smallest 
 - Class naming
 	- describe what the class *is* rather than what it *looks like*
-	- 	.bigText /*Bad*/
-	- 	.recognitionNominee /*Good*/
+				.bigText /*Bad*/
+				.recognitionNominee /*Good*/
 	- camelCaseYourClassNames
 - Avoid !important, unless absolutely necessary
 - Only set widths on containers/wrappers
