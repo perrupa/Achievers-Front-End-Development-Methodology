@@ -41,9 +41,11 @@
 	- if you are repeating ifs
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
+<pre><code>
 		 if(/*clause*/): 
 		 /*code*/ 
 		 endif;
+</code></pre>
 
 ##JS
 - We use a coding style similar to jQuery's 
