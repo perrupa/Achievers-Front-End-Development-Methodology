@@ -32,7 +32,7 @@
 	- specify an overflow
 - use floats and position relative/absolute very judiciously and only where necesary
 	- Doing this will minimize the amount of IE specific code we need
-
+	
 ##PHP
 - Keep your PHP short and free of complex logic
 - Break pages up into sub-views and code blocks.
@@ -40,10 +40,12 @@
 	- if you are repeating ifs
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
-<pre><code>if(/\*clause\*/): 
+<pre><code>
+if(/\*clause\*/): 
 	 /\*code\*/ 
- endif;</code></pre>
-
+endif;
+</code></pre>
+ 
 ##JS
 - We use a coding style similar to jQuery's 
 	- http://docs.jquery.com/JQuery_Core_Style_Guidelines
