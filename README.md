@@ -6,42 +6,7 @@
 	- ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-```
-<div class="user" data-user-pk="1" data-name="Aris"></div></code>
-```
-- Forms
-	- Use label fields to label each form field, the for attribute should associate itself with the input field
-- Tables are for tabular data, not forms/layout/etc...
-	
-##CSS
-- No inline-CSS or <style></style> tags.
-	- Ever.
-- No IDs in CSS selectors
-	- They are fine for use in JS but not in our style sheets
-- No markup in CSS selectors. If you want to style something, give it a class. 
-```
-.user h3{} /* this is bad */
-.user .userName {} /* this is better */
-```
-- We should use a hybrid of BEM (Block-Element-Modifier) and OOCSS (Object Oriented CSS) principles
-	- A page consists of multiple logically distinct "Blocks"
-	- A block is the smallest 
-- camelCaseYourClassNames
-- Class names should describe what the class *is* rather than what it *looks like*
-```
-.bigText /\*Bad\*/
-.recognitionNominee /\*Good\*/
-</code></pre>#Front-end Coding Standards
-
-##HTML
-- Use HTML5 
-- Try to keep markup semantic
-	- ie: use p tags instead of span + br tags for body text, etc...
-- Use double quotes for attributes
-- Information can be kept in mark up as attributes 
-```
-<div class="user" data-user-pk="1" data-name="Aris"></div></code>
-```
+	- ```<div class="user" data-user-pk="1" data-name="Aris"></div>```
 - Forms
 	- Use label fields to label each form field, the for attribute should associate itself with the input field
 - Tables are for tabular data, not forms/layout/etc...
@@ -58,7 +23,9 @@
 ```
 - We should use a hybrid of BEM (Block-Element-Modifier) and OOCSS (Object Oriented CSS) principles
 	- A page consists of multiple logically distinct "Blocks"
-	- A block is the smallest 
+	- A block consists of other blocks and elements
+	- An element is something that doesn't make sense as a block outside of the block's context (eg: the input in a 'search block')
+	- A modifier is a class (series of classes) that change the way a block appears/functions (eg: a navigation list appearing as navigation tabs or as a dropdown navigation menu)
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
 ```
