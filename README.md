@@ -5,7 +5,7 @@
 - 	ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-- 	eg: <div class="user" data-user-pk="1" data-name="Aris"></div>
+-- eg: <div class="user" data-user-pk="1" data-name="Aris"></div>
 - Forms
 - 	Use label fields to label each form field, the for attribute should associate itself with the input field
 - Tables are for tabular data, not forms/layout/etc...
