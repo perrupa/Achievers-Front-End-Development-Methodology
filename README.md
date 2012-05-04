@@ -16,16 +16,14 @@
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
 - No markup in CSS selectors. If you want to style something, give it a class. 
-		.user h3{} /* this is bad */
-		.user .userName {} /* this is better */
+<pre><code>.user h3{} /* this is bad */
+.user .userName {} /* this is better */</code></pre>
 - We should use a hybrid of BEM and OOCSS principles
 	- A block is the smallest 
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
-		<pre><code>
-.bigText /*Bad*/
-.recognitionNominee /*Good*/
-</code></pre>
+<pre><code></code></pre>.bigText /*Bad*/
+.recognitionNominee /*Good*/</code></pre>
 - Avoid !important, unless absolutely necessary
 - Only set widths on containers/wrappers
 	- Wrappers with explicit width should have NO padding
@@ -43,12 +41,9 @@
 	- if you are repeating ifs
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
-<pre><code>
-if(/*clause*/): 
-/*code*/ 
-endif;
-</code></pre>
-
+<pre><code>if(/*clause*/): 
+		 /*code*/ 
+		 endif;</code></pre>
 ##JS
 - We use a coding style similar to jQuery's 
 	- http://docs.jquery.com/JQuery_Core_Style_Guidelines
