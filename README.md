@@ -6,7 +6,7 @@
 	- ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-```html
+```
 <div class="user" data-user-pk="1" data-name="Aris"></div></code>
 ```
 - Forms
@@ -19,7 +19,7 @@
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
 - No markup in CSS selectors. If you want to style something, give it a class. 
-```css
+```
 .user h3{} /* this is bad */
 .user .userName {} /* this is better */
 ```
@@ -28,7 +28,7 @@
 	- A block is the smallest 
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
-```css
+```
 .bigText /\*Bad\*/
 .recognitionNominee /\*Good\*/
 </code></pre>#Front-end Coding Standards
@@ -39,7 +39,7 @@
 	- ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-```html
+```
 <div class="user" data-user-pk="1" data-name="Aris"></div></code>
 ```
 - Forms
@@ -61,7 +61,7 @@
 	- A block is the smallest 
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
-```css
+```
 .bigText /\*Bad\*/
 .recognitionNominee /\*Good\*/
 ```
@@ -81,7 +81,7 @@
 	- if you are repeating ifs
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
-```php
+```
 if(/\*clause\*/): 
 	 /\*code\*/ 
 endif;
@@ -114,7 +114,7 @@ endif;
 	- if you are repeating ifs
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
-```php
+```
 if(/\*clause\*/): 
 	 /\*code\*/ 
 endif;
