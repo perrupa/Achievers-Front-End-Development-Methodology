@@ -6,13 +6,13 @@
 	- ie: use p tags instead of span + br tags for body text, etc...
 - Use double quotes for attributes
 - Information can be kept in mark up as attributes 
-	- ```<div class="user" data-user-pk="1" data-name="Aris"></div>```
+	- `<div class="user" data-user-pk="1" data-name="Aris"></div>`
 - Forms
 	- Use label fields to label each form field, the for attribute should associate itself with the input field
 - Tables are for tabular data, not forms/layout/etc...
 	
 ##CSS
-- No inline-CSS or <style></style> tags.
+- No inline-CSS or `<style></style>` tags.
 	- Ever.
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
@@ -62,5 +62,5 @@ endif;
 - keep JS at the bottom of your view if it's short
 - For large amounts of JS, put it in an external file.
 - boolean variables start with is
-	- var isValid, isOverBudget;
-- use === where possible over ==
+	- `var isValid, isOverBudget;`
+- use `===` where possible over `==`
