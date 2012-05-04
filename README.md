@@ -22,8 +22,8 @@
 	- A block is the smallest 
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
-<pre><code>.bigText /*Bad*/
-.recognitionNominee /*Good*/</code></pre>
+<pre><code>.bigText /\*Bad\*/
+.recognitionNominee /\*Good\*/</code></pre>
 - Avoid !important, unless absolutely necessary
 - Only set widths on containers/wrappers
 	- Wrappers with explicit width should have NO padding
