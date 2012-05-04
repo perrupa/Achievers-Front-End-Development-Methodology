@@ -15,17 +15,15 @@
 	- Ever.
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
-- No markup in CSS selectors. 
-	- If you want to style something, give it a class. 
-	- .user h3{} /* this is bad */
-	- .user .userName {} /* this is better */
+- No markup in CSS selectors. If you want to style something, give it a class. 
+		.user h3{} /* this is bad */
+		.user .userName {} /* this is better */
 - We should use a hybrid of BEM and OOCSS principles
 	- A block is the smallest 
-- Class naming
-	- describe what the class *is* rather than what it *looks like*
-				.bigText /*Bad*/
-				.recognitionNominee /*Good*/
-	- camelCaseYourClassNames
+- camelCaseYourClassNames
+- Class names should describe what the class *is* rather than what it *looks like*
+		.bigText /*Bad*/
+		.recognitionNominee /*Good*/
 - Avoid !important, unless absolutely necessary
 - Only set widths on containers/wrappers
 	- Wrappers with explicit width should have NO padding
