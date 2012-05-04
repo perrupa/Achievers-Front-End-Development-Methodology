@@ -25,6 +25,19 @@
 	- A block consists of other blocks and elements
 	- An element is something that doesn't make sense as a block outside of the block's context (eg: the input in a 'search block')
 	- A modifier is a class (series of classes) that change the way a block appears/functions (eg: a navigation list appearing as navigation tabs or as a dropdown navigation menu)
+	- Elements within a block should reference the parent class 
+	
+```
+
+		<div class="recognition">
+			<h3 class="recognitionTitle">bla bla</h3>
+			<ul class="recognitionNomineeList">
+				<li class="recognitionNominee"></li>
+				<li class="recognitionNominee"></li>
+			</ul>
+			<span class="recognitionNominator"></span>
+		</div>
+```
 - camelCaseYourClassNames
 - Class names should describe what the class *is* rather than what it *looks like*
 
