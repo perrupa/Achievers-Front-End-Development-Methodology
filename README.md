@@ -16,8 +16,8 @@
 - No IDs in CSS selectors
 	- They are fine for use in JS but not in our style sheets
 - No markup in CSS selectors. If you want to style something, give it a class. 
-		.user h3{} /* this is bad */
-		.user .userName {} /* this is better */
+		 .user h3{} /* this is bad */
+		 .user .userName {} /* this is better */
 - We should use a hybrid of BEM and OOCSS principles
 	- A block is the smallest 
 - camelCaseYourClassNames
