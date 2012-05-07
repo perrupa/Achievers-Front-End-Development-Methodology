@@ -27,7 +27,7 @@
 	- A modifier is a class (series of classes) that change the way a block appears/functions (eg: a navigation list appearing as navigation tabs or as a dropdown navigation menu)
 	- Elements within a block should reference the parent class 
 	
-```
+``` html
 
 		<div class="recognition">
 			<h3 class="recognitionTitle">bla bla</h3>
