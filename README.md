@@ -60,7 +60,7 @@
 	- outputing/formatting variables
 - use PHP's Alternative syntax for control structures in views
 
-```
+``` php
 if(/*clause*/): 
 	 /*code*/ 
 endif;
